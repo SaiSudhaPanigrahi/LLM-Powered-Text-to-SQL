@@ -1,0 +1,47 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+
+# Environment folders
+env/
+venv/
+.venv/
+venv311/
+.env
+
+# VSCode workspace files
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Model weights / large data files (adjust as needed)
+*.gguf
+*.pth
+*.pt
+
+# Ignore Hugging Face cache
+~/.cache/huggingface/
+
+# Ignore prediction outputs
+predictions.json
+predictions.sql
+
+
+# Ignore all .py files in experiments/ folder
+experiments/*.py
