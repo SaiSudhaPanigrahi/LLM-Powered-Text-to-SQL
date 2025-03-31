@@ -45,3 +45,4 @@ predictions.sql
 
 # Ignore all .py files in experiments/ folder
 experiments/*.py
+data/
