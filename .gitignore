@@ -42,7 +42,7 @@ Thumbs.db
 predictions.json
 predictions.sql
 
+data/
 
 # Ignore all .py files in experiments/ folder
 experiments/*.py
-data/
