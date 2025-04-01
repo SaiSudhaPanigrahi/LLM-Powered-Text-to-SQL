@@ -2,7 +2,7 @@
 
 git clone https://github.com/taoyds/spider.git data
 
-2. Download sqlcoder model
+2. Download sqlcoder model (make sure it is in models folder)
 
 wget -O models/sqlcoder-7b.Q4_K_M.gguf https://huggingface.co/defog/sqlcoder-7b-GGUF/resolve/main/sqlcoder-7b.Q4_K_M.gguf
 
