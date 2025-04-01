@@ -16,3 +16,13 @@ pip install -r requirements.txt
 
 python3 main.py
 
+
+-----------------------------------------------
+
+What we currently have:
+
+	•	Schema matcher using sentence-transformers
+	•	SQL generation via SQLCoder-7B (GGUF, local inference)
+	•	SQL syntax validation
+	•	Schema relevance check via embedding similarity
+	•	Query formatting and evaluation against Spider
