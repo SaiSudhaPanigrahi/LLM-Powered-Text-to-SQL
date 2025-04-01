@@ -22,7 +22,10 @@ python3 main.py
 What we currently have:
 
 	•	Schema matcher using sentence-transformers
+ 	•	Fine-Grained Schema Parsing
+  	•	Prompt Formatting
 	•	SQL generation via SQLCoder-7B (GGUF, local inference)
 	•	SQL syntax validation
 	•	Schema relevance check via embedding similarity
+ 	•	Column/Table Validation
 	•	Query formatting and evaluation against Spider
