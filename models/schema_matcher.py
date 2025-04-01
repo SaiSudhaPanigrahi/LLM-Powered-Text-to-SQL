@@ -41,3 +41,6 @@ class SchemaMatcher:
         best_db_id = self.db_ids[best_idx]
         best_schema_text = self.db_texts[best_idx]
         return best_db_id, best_schema_text
+    
+    def get_model(self):
+        return self.model
