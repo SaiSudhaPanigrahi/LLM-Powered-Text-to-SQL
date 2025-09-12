@@ -39,6 +39,15 @@ class SQLGenerator:
 
         if not os.path.exists(self.model_path):
             raise FileNotFoundError(f"Model file not found at: {self.model_path}")
+        
+        # def safe_del(self):
+        #     try:
+        #         if hasattr(self, "_ctx") and self._ctx:
+        #             self.close()
+        #     except Exception:
+        #         pass
+
+        # Llama.__del__ = safe_del
 
         self.model = Llama(
             model_path=self.model_path,
@@ -49,6 +58,8 @@ class SQLGenerator:
         )
 
         logging.info(f"✅ Loaded model from: {self.model_path}")
+
+    
 
     def generate(self, question: str, schema: str) -> str:
         try:

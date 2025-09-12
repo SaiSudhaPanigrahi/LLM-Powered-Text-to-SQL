@@ -46,3 +46,7 @@ data/
 
 # Ignore all .py files in experiments/ folder
 experiments/*.py
+
+main_8apr.py
+pgexporter
+origmain.py
