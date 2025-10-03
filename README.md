@@ -9,7 +9,7 @@ This project presents a schema-aware Text-to-SQL (T2S) system that translates na
 The core methodology achieves **81% execution accuracy** on the complex, multi-table **Spider** benchmark. This work bridges the gap between theoretical research and practical deployment by creating a system that is not only accurate but also scalable and user-friendly.
 
 ![High-level architecture](assets/diag1.webp)
-![Pipeline](assets/diag2.webp)
+
 
 ---
 
@@ -110,3 +110,11 @@ Response:
     { "columns": ["name", "total"], "rows": [["Alice", 12345.67], ["Bob", 11800.10], ...] }
 
 ---
+
+## 🌟 Demo
+
+
+![Pipeline](assets/img2.png)
+![Pipeline](assets/image.png)
+![Pipeline](assets/diag2.webp)
+
